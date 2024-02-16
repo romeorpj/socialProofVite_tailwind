@@ -1,12 +1,17 @@
+
 import './App.css'
-
+import BottomSection from './components/BottomSection'
+import TopSection from './components/TopSection'
 function App() {
-
   return (
     <>
-     <h1>TESTTINGGGGG SETUP</h1>
+      <main>
+        <TopSection/>
+        <BottomSection/>
+      </main>
     </>
   )
 }
 
 export default App
+App.displayName = "App"
